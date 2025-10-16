@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { AboutUs } from '../AboutUs'
 import { TitlePage } from '../TitlePage'
-import { Toast } from './Toast'
 const LandingPage = ({value , setValue}) => {
   const isOpen = value
   const setIsOpen = setValue
